@@ -7,9 +7,9 @@ import { Cliente } from './cliente';
 })
 export class FormComponent implements OnInit {
 
-  private cliente:Cliente = new Cliente();
-  private titulo:string = "Crear cliente";
-  
+  public cliente:Cliente = new Cliente();
+  public titulo:string = "Crear cliente";
+
   constructor() { }
 
   ngOnInit(): void {
